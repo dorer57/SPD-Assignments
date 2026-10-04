@@ -11,5 +11,8 @@ public class Main {
 
         Shape square = new Square(raster, 10);
         square.draw();
+
+        circle.resize(2);
+        circle.draw();
     }
 }
