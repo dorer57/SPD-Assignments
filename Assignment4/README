@@ -1,0 +1,16 @@
+# Assignment 4 — Facade Pattern
+
+A home theater has four devices: Amplifier, DvdPlayer, Projector, TheaterLights.
+Turning them on in the right order takes about ten method calls.
+HomeTheaterFacade does it in one: watchMovie(movie). endMovie() turns everything off.
+
+## Files
+
+Main.java - Client, uses only the Facade 
+HomeTheaterFacade.java - Facade, controls all devices in the right order 
+Amplifier.java, DvdPlayer.java, Projector.java, TheaterLights.java - Subsystem, the devices 
+HomeTheaterException.java - The one error the Facade reports 
+
+## How to run
+
+Launch main
