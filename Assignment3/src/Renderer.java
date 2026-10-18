@@ -1,4 +1,4 @@
-public interface Renderer {
-    void drawCircle(double radius);
-    void drawSquare(double side);
-}
+//public interface Renderer {
+   // void drawCircle(double radius);
+   // void drawSquare(double side);
+//}
