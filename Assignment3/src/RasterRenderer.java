@@ -7,4 +7,8 @@ public class RasterRenderer implements Renderer {
     public void drawSquare(double side) {
         System.out.println("Drawing a square as pixels, side = " + side);
     }
+
+    public void drawTriangle(double angle) {
+        System.out.println("Drawing a triangle as pixels, angle = " + angle);
+    }
 }

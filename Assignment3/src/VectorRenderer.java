@@ -4,5 +4,8 @@ public class VectorRenderer implements Renderer {
     }
     public void drawSquare(double side) {
         System.out.println("Drawing a square as a vector, side = " + side);
+
+    public void drawTriangle(double angle) {
+        System.out.println("Drawing a triangle as a vector, angle = " + angle);
     }
 }
