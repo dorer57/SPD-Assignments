@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         HomeTheaterFacade homeTheater = new HomeTheaterFacade();
 
-        homeTheater.watchMovie("Raiders of the Lost Ark");
+        homeTheater.watchMovie("Star Wars");
         homeTheater.endMovie();
 
         System.out.println();
