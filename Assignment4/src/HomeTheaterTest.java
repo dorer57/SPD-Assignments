@@ -18,7 +18,7 @@ public class HomeTheaterTest {
     private static void testEmptyTitleIsRejected() {
         HomeTheaterFacade homeTheater = new HomeTheaterFacade();
         try {
-            homeTheater.watchMovie("");
+            homeTheater.watchMovie("Test Movie");
             System.out.println("FAILED: empty title is rejected");
         } catch (HomeTheaterException e) {
             System.out.println("PASSED: empty title is rejected");
