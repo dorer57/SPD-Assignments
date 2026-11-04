@@ -13,3 +13,5 @@ public class Circle implements Shape {
         visitor.visitCircle(this);
     }
 }
+
+// фигуры знают, что они фигуры

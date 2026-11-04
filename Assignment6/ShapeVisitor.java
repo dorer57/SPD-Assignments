@@ -3,3 +3,5 @@ public interface ShapeVisitor {
     void visitSquare(Square square);
     void visitTriangle(Triangle triangle);
 }
+
+// Список того, что визитор умеет
