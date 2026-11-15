@@ -58,6 +58,6 @@ public class Main {
 
         System.out.println();
         System.out.println("=== 8. Unknown song ===");
-        premium.play("Lost Song");
+        premium.play("Unknown Song");
     }
 }
