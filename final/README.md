@@ -1,4 +1,4 @@
-# Final Project — Music Streaming Service
+# Final Project - Music Streaming Service
 
 A console Java application that shows six design patterns working together.
 
