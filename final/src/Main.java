@@ -1,19 +1,18 @@
 public class Main {
     public static void main(String[] args) {
-        Song song1 = new Song("Night Drive", "Neon Waves", 200,
-                "City lights are calling", "We drive into the night");
-        Song song2 = new Song("Morning Coffee", "The Sleepy Cats", 150,
-                "Steam is rising slowly", "A new day says hello");
-        Song song3 = new Song("Rainy Window", "Blue Lanterns", 240,
-                "Drops are racing down the glass", "I count them one by one");
-        Song song4 = new Song("Ocean Breeze", "Calm Tides", 180);
+        Song song1 = new Song("Bayan (Bonus Track)", "Ozoi the Maid, Yakui the Maid", 200);
+        Song song2 = new Song("Без Меня", "Гражданская Оборона", 150,
+                "И убегает весь мир", "Убегает земля");
+        Song song3 = new Song("You're not Here", "Akira Yamaoka", 240,
+                "Blue sky to forever","The green grass blows in the wind, dancing");
+        Song song4 = new Song("Neuma", "Yakui the Maid", 180);
 
         MusicLibrary library = new MusicLibrary();
         library.addSong(song1);
         library.addSong(song2);
         library.addSong(song3);
         library.addSong(song4);
-        library.addPodcast(new Podcast("Tech Talk", "Alex", 1800));
+        library.addPodcast(new Podcast("Podcastname", "Someone", 1800));
 
         PhoneDisplay phoneDisplay = new PhoneDisplay();
         TvDisplay tvDisplay = new TvDisplay();
