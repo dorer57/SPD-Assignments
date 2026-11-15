@@ -14,4 +14,4 @@ public class Circle implements Shape {
     }
 }
 
-// фигуры знают, что они фигуры
+// фигуры знают, что они фигуры 
