@@ -27,6 +27,9 @@ public abstract class MusicPlayer implements Subject {
 
     protected void playSong(Song song, AudioStream stream) {
         output.send(stream.getSound());
+        if (song.getLyrics().length == 0) {
+            notifyObservers("(no lyrics for this song)");
+        }
         for (String line : song.getLyrics()) {
             notifyObservers(line);
         }

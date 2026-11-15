@@ -4,7 +4,7 @@ public class Song implements MediaItem {
     private final int durationSeconds;
     private final String[] lyrics;
 
-    public Song(String title, String artist, int durationSeconds, String[] lyrics) {
+    public Song(String title, String artist, int durationSeconds, String... lyrics) {
         this.title = title;
         this.artist = artist;
         this.durationSeconds = durationSeconds;
